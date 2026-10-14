@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rhythm of Life — Support</title>
+<meta name="description" content="Support page for Rhythm of Life, a private, customizable cycle and life tracker for iPhone.">
+<style>
+  :root {
+    --bg: #FDF8F5;
+    --surface: #FFFFFF;
+    --text: #2A2430;
+    --text-dim: #6B6472;
+    --accent: #8B5FBF;
+    --border: #E8E0EC;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17131C;
+      --surface: #221C2A;
+      --text: #F0EAF5;
+      --text-dim: #A89FB3;
+      --accent: #B794E0;
+      --border: #352C40;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .tagline { color: var(--text-dim); margin: 0 0 32px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+  }
+  .card h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  .card p { margin: 0; color: var(--text-dim); }
+  a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .emoji { font-size: 2.6rem; display: block; margin-bottom: 12px; }
+  footer { margin-top: 40px; font-size: 0.85rem; color: var(--text-dim); }
+</style>
+</head>
+<body>
+<main>
+  <span class="emoji">🌸</span>
+  <h1>Rhythm of Life</h1>
+  <p class="tagline">A private, deeply customizable tracker for the patterns of your life — on iPhone.</p>
+
+  <div class="card">
+    <h2>Need help or have feedback?</h2>
+    <p>Email <a href="mailto:yaelgou@proton.me">yaelgou@proton.me</a> and I'll get back to you. Rhythm of Life is made by one person, so replies are personal (and usually quick).</p>
+  </div>
+
+  <div class="card">
+    <h2>Your privacy</h2>
+    <p>Everything you log stays on your device — no account, no cloud, no analytics. Read the full <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Enjoying the app?</h2>
+    <p>A small tip keeps it growing 💜 <a href="https://www.paypal.me/YaelGou">Support on PayPal</a></p>
+  </div>
+
+  <footer>© 2026 Yael Gounitski · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
